@@ -1,0 +1,151 @@
+{
+ "node": "v22.18.0",
+ "n": 1000,
+ "reps": 3,
+ "results": [
+  {
+   "client": "native fetch",
+   "concurrency": 1,
+   "rps_median": 1144,
+   "rps_min": 844,
+   "rps_max": 1428,
+   "failed": 0,
+   "peak_rss_mb": 130
+  },
+  {
+   "client": "native fetch",
+   "concurrency": 10,
+   "rps_median": 1979,
+   "rps_min": 1809,
+   "rps_max": 1991,
+   "failed": 0,
+   "peak_rss_mb": 140
+  },
+  {
+   "client": "native fetch",
+   "concurrency": 50,
+   "rps_median": 2221,
+   "rps_min": 1655,
+   "rps_max": 2308,
+   "failed": 0,
+   "peak_rss_mb": 146
+  },
+  {
+   "client": "native fetch",
+   "concurrency": 200,
+   "rps_median": 2124,
+   "rps_min": 1860,
+   "rps_max": 2148,
+   "failed": 0,
+   "peak_rss_mb": 157
+  },
+  {
+   "client": "axios",
+   "concurrency": 1,
+   "rps_median": 1057,
+   "rps_min": 983,
+   "rps_max": 1167,
+   "failed": 0,
+   "peak_rss_mb": 116
+  },
+  {
+   "client": "axios",
+   "concurrency": 10,
+   "rps_median": 1409,
+   "rps_min": 1323,
+   "rps_max": 1418,
+   "failed": 0,
+   "peak_rss_mb": 120
+  },
+  {
+   "client": "axios",
+   "concurrency": 50,
+   "rps_median": 1559,
+   "rps_min": 1393,
+   "rps_max": 1583,
+   "failed": 0,
+   "peak_rss_mb": 139
+  },
+  {
+   "client": "axios",
+   "concurrency": 200,
+   "rps_median": 1305,
+   "rps_min": 1082,
+   "rps_max": 1459,
+   "failed": 0,
+   "peak_rss_mb": 141
+  },
+  {
+   "client": "node-fetch@3",
+   "concurrency": 1,
+   "rps_median": 904,
+   "rps_min": 828,
+   "rps_max": 1047,
+   "failed": 0,
+   "peak_rss_mb": 131
+  },
+  {
+   "client": "node-fetch@3",
+   "concurrency": 10,
+   "rps_median": 1164,
+   "rps_min": 1063,
+   "rps_max": 1336,
+   "failed": 0,
+   "peak_rss_mb": 135
+  },
+  {
+   "client": "node-fetch@3",
+   "concurrency": 50,
+   "rps_median": 1348,
+   "rps_min": 1262,
+   "rps_max": 1400,
+   "failed": 0,
+   "peak_rss_mb": 144
+  },
+  {
+   "client": "node-fetch@3",
+   "concurrency": 200,
+   "rps_median": 1383,
+   "rps_min": 1139,
+   "rps_max": 1404,
+   "failed": 0,
+   "peak_rss_mb": 158
+  },
+  {
+   "client": "undici request",
+   "concurrency": 1,
+   "rps_median": 2756,
+   "rps_min": 2616,
+   "rps_max": 3639,
+   "failed": 0,
+   "peak_rss_mb": 74
+  },
+  {
+   "client": "undici request",
+   "concurrency": 10,
+   "rps_median": 5591,
+   "rps_min": 5476,
+   "rps_max": 6362,
+   "failed": 0,
+   "peak_rss_mb": 74
+  },
+  {
+   "client": "undici request",
+   "concurrency": 50,
+   "rps_median": 6871,
+   "rps_min": 5475,
+   "rps_max": 7554,
+   "failed": 0,
+   "peak_rss_mb": 76
+  },
+  {
+   "client": "undici request",
+   "concurrency": 200,
+   "rps_median": 7431,
+   "rps_min": 4666,
+   "rps_max": 7498,
+   "failed": 0,
+   "peak_rss_mb": 92
+  }
+ ]
+}
