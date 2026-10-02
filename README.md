@@ -2,7 +2,7 @@
 
 ![HasData, the company that ran the benchmark](banner.png)
 
-Throughput under load for four Node.js HTTP clients, `fetch`, `axios`, `node-fetch` and `undici.request`, measured against a local server so the network doesn't add noise. The numbers back the benchmark sections of [our Node.js fetch guide](https://hasdata.com/blog/nodejs-fetch-api) and [axios vs fetch](https://hasdata.com/blog/axios-vs-fetch).
+Throughput under load for four Node.js HTTP clients, `fetch`, `axios`, `node-fetch` and `undici.request`, measured against a local server so the network doesn't add noise. The numbers back the benchmark sections of [our Node.js fetch guide](https://hasdata.com/blog/nodejs-fetch-api?utm_source=github&utm_medium=syndication&utm_campaign=nodejs-fetch-api&utm_content=nodejs-fetch-benchmark-readme) and [axios vs fetch](https://hasdata.com/blog/axios-vs-fetch?utm_source=github&utm_medium=syndication&utm_campaign=nodejs-fetch-api&utm_content=nodejs-fetch-benchmark-readme).
 
 ## Table of Contents
 
@@ -46,9 +46,9 @@ The run writes `results/throughput_results.json` next to the script and takes a 
 
 ## Disclaimer
 
-The benchmark talks only to its own local server. The article links above show how the same clients behave against real sites, where jurisdiction and terms decide what is appropriate. [Is Web Scraping Legal?](https://hasdata.com/blog/is-web-scraping-legal) covers how we think about that question.
+The benchmark talks only to its own local server. The article links above show how the same clients behave against real sites, where jurisdiction and terms decide what is appropriate. [Is Web Scraping Legal?](https://hasdata.com/blog/is-web-scraping-legal?utm_source=github&utm_medium=syndication&utm_campaign=nodejs-fetch-api&utm_content=nodejs-fetch-benchmark-readme) covers how we think about that question.
 
 ## More Resources
 
-- [Node.js Fetch API](https://hasdata.com/blog/nodejs-fetch-api), proxies, timeouts and retries around these clients
-- [Axios vs Fetch](https://hasdata.com/blog/axios-vs-fetch), the head-to-head these numbers feed
+- [Node.js Fetch API](https://hasdata.com/blog/nodejs-fetch-api?utm_source=github&utm_medium=syndication&utm_campaign=nodejs-fetch-api&utm_content=nodejs-fetch-benchmark-readme), proxies, timeouts and retries around these clients
+- [Axios vs Fetch](https://hasdata.com/blog/axios-vs-fetch?utm_source=github&utm_medium=syndication&utm_campaign=nodejs-fetch-api&utm_content=nodejs-fetch-benchmark-readme), the head-to-head these numbers feed
